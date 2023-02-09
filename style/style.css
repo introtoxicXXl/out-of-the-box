@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100vw;
+  background-image: url(../images/banner/banner3.png);
+  height: 808px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 230px 0 0;
+  text-align: right;
+}
+
+.header h2 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.header p{
+  
+}
+
+.button {
+  display: inline-block;
+  text-align: right;
+  color: blue;
+  text-decoration: none;
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: rgba(0, 95, 172, 1);
+  font-weight: bold;
+}
